@@ -87,3 +87,4 @@ mapreduce/mapreduce.iml
 .idea/libraries/Maven__xerces_xercesImpl_2_9_1.xml
 .idea/libraries/Maven__xml_apis_xml_apis_1_3_04.xml
 .idea/libraries/Maven__xmlenc_xmlenc_0_52.xml
+.idea/initial-bigdata.iml
