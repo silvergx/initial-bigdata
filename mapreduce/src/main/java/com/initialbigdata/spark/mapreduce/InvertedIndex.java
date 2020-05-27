@@ -46,7 +46,7 @@ public class InvertedIndex {
         private Text info = new Text();
 
         /**
-         * input: <hello_fileA,1> <world_fileA,1> <world_fileA,1> <hello_fileB,1> <world_fileC,1> <hello_fileD,1> <hello_fileD,1> <world_fileD,1>
+         * input: <hello_fileA,1> <world_fileA,{1,1}> <hello_fileB,1> <world_fileC,1> <hello_fileD,{1,1}> <world_fileD,1>
          * output: <hello,fileA_1> <world,fileA_2> <hello,fileB_1> <world,fileC_1> <hello,fileD_2> <world,fileD_1>
          */
         public void reduce(Text key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
